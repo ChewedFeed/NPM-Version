@@ -9,16 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Reedyuk/NPM-Version.git"
+    "url": "git+https://github.com/Chewedfeed/NPM-Version.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Reedyuk/NPM-Version/issues"
+    "url": "https://github.com/Chewedfeed/NPM-Version/issues"
   },
-  "homepage": "https://github.com/Reedyuk/NPM-Version#readme",
+  "homepage": "https://github.com/Chewedfeed/NPM-Version#readme",
   "dependencies": {
-    "@actions/core": "^1.9.1"
+    "@actions/core": "1.10.1"
   }
 }

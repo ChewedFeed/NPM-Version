@@ -5,15 +5,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@v4
 
       - name: Current Version Checkout
         run: npm run version
 
-      - name: 'run version change'
+      - name: "run version change"
         uses: ./
         with:
-          version: '10.1.1'
+          version: "10.1.1"
 
       - name: Current Version Checkout
         run: npm run version
+
